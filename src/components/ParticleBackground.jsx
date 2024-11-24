@@ -21,7 +21,7 @@ const ParticleBackground = () => {
     // Inicjalizacja cząsteczek
     const initParticles = () => {
       particles = [];
-      const numberOfParticles = 200;
+      const numberOfParticles = 500;
 
       for (let i = 0; i < numberOfParticles; i++) {
         particles.push({
